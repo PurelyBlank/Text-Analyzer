@@ -11,8 +11,14 @@ set(SRC_FILES
     src/text_analyzer.cpp
 )
 
+set(HELPER_FILES
+    helpers/io.h
+    helpers/io.cpp
+)
+
 add_executable(text_analyzer
     ${SRC_FILES}
+    ${HELPER_FILES}
     src/main.cpp
 )    
 
