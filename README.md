@@ -17,7 +17,7 @@ Create a program that takes a short piece of text as input and performs some bas
 
 ### How To Run:
 1) Clone this repo
-2) Run `cmake -S . -B build`
+2) Run `cmake --preset <macos/linux>` // Unfornately, I do not have support for windows as I do not use that OS :(
 3) Run `cmake --build build` inside your project
 4) To run the tests, run `./build/tests`
 5) Otherwise, run `./build/text_analyzer`
